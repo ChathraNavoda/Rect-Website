@@ -1,9 +1,9 @@
 import "./App.css";
+import Carousel from "./components/pages/Carousel";
+import Details from "./components/pages/Details";
 import Header from "./components/pages/Header";
 import Section from "./components/pages/Section";
-import Details from "./components/pages/Details";
-import Carousel from "./components/pages/Carousel";
-import Contact from "./components/pages/Contact";
+import { Data } from "./components/variables/Data";
 
 function App() {
   return (
@@ -11,8 +11,7 @@ function App() {
       <Header />
       <Section />
       <Details />
-      <Carousel />
-      <Contact />
+      <Carousel slides={Data} />
     </div>
   );
 }
