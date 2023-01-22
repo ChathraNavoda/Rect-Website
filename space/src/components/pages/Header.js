@@ -2,6 +2,7 @@ import React from "react";
 import { Close, MenuOutlined } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import moonLogo from "../assets/moon-1.png";
+import "../styles/Header.css";
 
 const Header = () => {
   return (
